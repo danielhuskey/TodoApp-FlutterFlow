@@ -194,6 +194,13 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
               ),
+              Text(
+                'Hello World',
+                style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      fontFamily: 'Inter',
+                      letterSpacing: 0.0,
+                    ),
+              ),
             ],
           ),
         ),
